@@ -11,3 +11,13 @@ const os = require('os');
 var totalMemory = os.totalmem();
 console.log('Total memory: ' + totalMemory);
 console.log(`Total memory: ${totalMemory}`); //ES6 Template string
+
+//file system module
+const fs = require('fs');
+
+//fs.readdirSync('./');
+
+fs.readdir('./', function(err, files){
+    if (err) console.log('Error', err);
+    else console.log('Result', files);
+});
