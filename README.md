@@ -9,5 +9,6 @@ Getting started with nodejs
   - file system
   - os
   - path
-  - http
   - events using EventEmitter
+  - http
+  
